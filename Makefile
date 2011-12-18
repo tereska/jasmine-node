@@ -1,6 +1,6 @@
 
 PREFIX ?= /usr/local
-JSCOV = deps/jscoverage/node-jscoverage
+JSCOV = deps/node-jscoverage/node-jscoverage
 
 install: install-jscov 
 
@@ -11,8 +11,8 @@ install-jscov: $(JSCOV)
 	install $(JSCOV) $(PREFIX)/bin
 
 $(JSCOV):
-	cd deps/jscoverage && ./configure && make && mv jscoverage node-jscoverage
+	cd deps/node-jscoverage && ./configure && make && mv jscoverage node-jscoverage
 
 clean:
-	@cd deps/jscoverage && git clean -fd
+	@cd deps/node-jscoverage && git clean -fd
 

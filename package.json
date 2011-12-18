@@ -23,6 +23,6 @@
 , "bin"           : "bin/jasmine-node-cc"
 , "main"          : "lib/jasmine-node"
 , "scripts"       : {
-                    "preinstall": "make deps/jscoverage/node-jscoverage"
+                    "preinstall": "make deps/node-jscoverage/node-jscoverage"
                     }
 }
