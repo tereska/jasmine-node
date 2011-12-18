@@ -22,4 +22,7 @@
                     }
 , "bin"           : "bin/jasmine-node"
 , "main"          : "lib/jasmine-node"
+, "scripts"       : {
+                    "preinstall": "make deps/jscoverage/node-jscoverage"
+                    }
 }
