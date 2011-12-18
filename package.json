@@ -1,5 +1,5 @@
 {
-  "name"          : "jasmine-node"
+  "name"          : "jasmine-node-cc"
 , "version"       : "1.0.14"
 , "description"   : "DOM-less simple JavaScript BDD testing framework for Node"
 , "homepage"      : [ "http://pivotal.github.com/jasmine"
@@ -20,7 +20,7 @@
                     , "jasmine-reporters" : "0.1.0"
                     , "requirejs" : ">=0.27.1"
                     }
-, "bin"           : "bin/jasmine-node"
+, "bin"           : "bin/jasmine-node-cc"
 , "main"          : "lib/jasmine-node"
 , "scripts"       : {
                     "preinstall": "make deps/jscoverage/node-jscoverage"

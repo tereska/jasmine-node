@@ -1,0 +1,88 @@
+
+
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   
+}
+
+.ProgressGraph {
+  border: 1px solid white;
+}
+
+input#location, button {
+  border: 1px solid white;
+}
+
+
+table#summaryTable {
+  width: 70%;
+  margin:auto;
+}
+
+table#summaryTable th, table#summaryTable td {
+  padding: 4px;
+}
+
+th {
+  background-color: #444;
+}
+
+td.g.numeric,
+td.r.numeric {
+  color: black;
+}
+
+tr#summaryTotals td {
+    background-color: #666;
+}
+
+.pctGraph {
+    background-color: #CC1100;
+}
+
+.pctGraph .covered {
+    background-color: #9CCB19;
+}
+
+tbody#summaryTbody tr.even td {
+    background-color: #222;
+}
+
+.g {
+  background-color: #6B8E23;
+}
+
+.y {
+  background-color: #ffffbf;
+}
+
+.r {
+  background-color: #B22222;
+}
+
+#tabs div {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.TabPage {
+  background-color: black;
+  border: 1px solid white;
+}
+
+#warningDiv {
+   text-indent: -9999px;
+   border: none;
+   padding: 0;
+      
+}
+
+#tabs div.selected {
+    border-bottom: medium none;
+}
